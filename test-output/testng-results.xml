@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-12T13:37:59 IST" name="Default suite" finished-at="2023-03-12T13:38:21 IST" duration-ms="22092">
+    <groups>
+    </groups>
+    <test started-at="2023-03-12T13:37:59 IST" name="Default test" finished-at="2023-03-12T13:38:21 IST" duration-ms="22092">
+      <class name="testNGDemo.TestLogin2">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testNGDemo.TestLogin2@581ac8a8]" started-at="2023-03-12T13:37:59 IST" name="openBrowser" finished-at="2023-03-12T13:38:03 IST" duration-ms="4556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="InvalidLogin()[pri:0, instance:testNGDemo.TestLogin2@581ac8a8]" started-at="2023-03-12T13:38:03 IST" name="InvalidLogin" finished-at="2023-03-12T13:38:09 IST" duration-ms="5633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method signature="ValidLogin()[pri:1, instance:testNGDemo.TestLogin2@581ac8a8]" started-at="2023-03-12T13:38:09 IST" name="ValidLogin" finished-at="2023-03-12T13:38:20 IST" duration-ms="11306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNGDemo.TestLogin2@581ac8a8]" started-at="2023-03-12T13:38:20 IST" name="closeBrowser" finished-at="2023-03-12T13:38:21 IST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testNGDemo.TestLogin2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
